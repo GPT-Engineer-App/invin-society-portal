@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "/logo.png";
 import { Carousel } from "@/components/ui/carousel";
 
 const Index = () => {
