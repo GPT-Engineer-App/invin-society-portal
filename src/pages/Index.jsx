@@ -24,7 +24,7 @@ const Index = () => {
       <h1 className="text-4xl font-bold mb-4">Willkommen bei Invin Society</h1>
       <p className="mb-4">Be Invincible with Invin</p>
       <div className="hero-banner mb-4">
-        <img src="/hero-banner.jpg" alt="Hero Banner" className="mx-auto object-cover w-full h-[400px]" />
+        <img src="/hero-banner.jpg" alt="Hero Banner showing Invin Society's mission" className="mx-auto object-cover w-full h-[400px]" />
       </div>
       <p className="mb-4">
         Entdecken Sie unsere Dienstleistungen und erfahren Sie, wie wir Ihnen helfen können, Ihre Ziele zu erreichen.
