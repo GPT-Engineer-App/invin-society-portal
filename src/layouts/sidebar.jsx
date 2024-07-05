@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
+import logo from "@/public/logo.png";
 
 const Layout = () => {
   return (
@@ -36,7 +37,7 @@ const Sidebar = () => (
     <div className="flex h-full max-h-screen flex-col gap-2">
       <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
         <NavLink to="/" className="flex items-center gap-2 font-semibold">
-          <Package2 className="h-6 w-6" />
+          <img src={logo} alt="Invin Society Logo" className="h-6 w-6" />
           <span>Acme Inc</span>
         </NavLink>
       </div>
@@ -68,7 +69,7 @@ const MobileSidebar = () => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold mb-4"
         >
-          <Package2 className="h-6 w-6" />
+          <img src={logo} alt="Invin Society Logo" className="h-6 w-6" />
           <span className="sr-only">Acme Inc</span>
         </NavLink>
         {navItems.map((item) => (
