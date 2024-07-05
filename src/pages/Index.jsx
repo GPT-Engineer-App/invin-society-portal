@@ -21,10 +21,10 @@ const Index = () => {
   }, []);
   return (
     <div className="container mx-auto p-4 text-center">
-      <h1 className="text-4xl font-bold mb-4">Willkommen bei Invin Society</h1>
+      <h1 className="text-4xl font-bold mb-4">Willkommen bei Invin Society - Ihre Experten für Finanzanalyse und Investitionsberatung</h1>
       <p className="mb-4">Be Invincible with Invin</p>
       <div className="hero-banner mb-4">
-        <img src="/hero-banner.jpg" alt="Hero Banner" className="mx-auto object-cover w-full h-[400px]" />
+        <img src="/hero-banner.jpg" alt="Hero Banner - Invin Society" className="mx-auto object-cover w-full h-[400px]" />
       </div>
       <p className="mb-4">
         Entdecken Sie unsere Dienstleistungen und erfahren Sie, wie wir Ihnen helfen können, Ihre Ziele zu erreichen.
@@ -37,7 +37,7 @@ const Index = () => {
           </div>
         ))}
       </div>
-      <h2 className="text-3xl font-bold mb-4">Erfolgsgeschichten</h2>
+      <h2 className="text-3xl font-bold mb-4">Erfolgsgeschichten unserer Kunden</h2>
       <Carousel>
         {successStories.map((story, index) => (
           <div key={index} className="p-4 border rounded">

@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Dienstleistungen</h1>
+      <h1 className="text-3xl font-bold mb-4">Dienstleistungen - Invin Society</h1>
       <h2 className="text-2xl font-semibold mb-2">Finanzanalyse/Lebensanalyse</h2>
       <p className="mb-4">
         Wir bieten eine umfassende Analyse Ihrer finanziellen und persönlichen Situation, um Ihnen zu helfen, fundierte Entscheidungen zu treffen.

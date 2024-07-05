@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Kontakt</h1>
+      <h1 className="text-3xl font-bold mb-4">Kontakt - Invin Society</h1>
       <p className="mb-4">
         Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Kontaktieren Sie uns über das untenstehende Formular oder besuchen Sie uns an unserem Standort.
       </p>
@@ -23,8 +23,8 @@ const Contact = () => {
         </div>
       </form>
       <div className="mt-8">
-        <h2 className="text-2xl font-semibold mb-2">Unsere Kontaktdaten</h2>
-        <p className="mb-2">Adresse: Musterstraße 1, 12345 Musterstadt</p>
+        <h2 className="text-2xl font-semibold mb-2">Unsere Kontaktdaten - Invin Society</h2>
+        <p className="mb-2">Adresse: Musterstraße 1, 12345 Musterstadt, Deutschland</p>
         <p className="mb-2">Telefon: +49 123 456 7890</p>
         <p>Email: info@invinsociety.de</p>
       </div>

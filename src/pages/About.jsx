@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Über uns</h1>
+      <h1 className="text-3xl font-bold mb-4">Über uns - Invin Society</h1>
       <p className="mb-4">
         Willkommen bei Invin Society! Unsere Mission ist es, Menschen dabei zu helfen, ihr volles Potenzial zu entfalten und ihre Ziele zu erreichen. 
         Unser Team besteht aus erfahrenen Fachleuten, die sich leidenschaftlich für Persönlichkeitsentwicklung, Finanzberatung und Technologielösungen einsetzen.
