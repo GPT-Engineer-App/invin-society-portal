@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
+import logo from "/logo.png";
 
 const Layout = () => {
   return (
@@ -34,8 +35,8 @@ const DesktopNav = () => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <Package2 className="h-6 w-6" />
-      <span className="sr-only">Acme Inc</span>
+      <img src={logo} alt="Invin Society Logo" className="h-8 w-8" />
+      <span className="sr-only">Invin Society</span>
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -59,8 +60,8 @@ const MobileNav = () => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold"
         >
-          <Package2 className="h-6 w-6" />
-          <span className="sr-only">Acme Inc</span>
+          <img src={logo} alt="Invin Society Logo" className="h-8 w-8" />
+          <span className="sr-only">Invin Society</span>
         </NavItem>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>
