@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Carousel } from "@/components/ui/carousel";
-import logo from "@/../public/logo.png";
 
 const Index = () => {
   const [services, setServices] = useState([]);
