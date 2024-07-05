@@ -25,6 +25,9 @@ const Index = () => {
       <div className="flex justify-center mb-4">
         <img src={logo} alt="Invin Society Logo" className="h-16 w-16" />
       </div>
+      <div className="flex justify-center mb-4">
+        <img src={logo} alt="Invin Society Logo" className="h-16 w-16" />
+      </div>
       <h1 className="text-4xl font-bold mb-4">Willkommen bei Invin Society - Ihre Experten für Finanzanalyse und Investitionsberatung</h1>
       <p className="mb-4">Be Invincible with Invin</p>
       <div className="hero-banner mb-4">
