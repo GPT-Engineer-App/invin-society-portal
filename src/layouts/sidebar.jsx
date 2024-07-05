@@ -38,7 +38,6 @@ const Sidebar = () => (
       <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
         <NavLink to="/" className="flex items-center gap-2 font-semibold">
           <img src={logo} alt="Invin Society Logo" className="h-10 w-10" />
-          <span>Acme Inc</span>
         </NavLink>
       </div>
       <div className="flex-1">
@@ -70,7 +69,6 @@ const MobileSidebar = () => (
           className="flex items-center gap-2 text-lg font-semibold mb-4"
         >
           <img src={logo} alt="Invin Society Logo" className="h-10 w-10" />
-          <span className="sr-only">Acme Inc</span>
         </NavLink>
         {navItems.map((item) => (
           <SidebarNavLink key={item.to} to={item.to}>

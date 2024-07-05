@@ -36,7 +36,6 @@ const DesktopNav = () => (
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
       <img src={logo} alt="Invin Society Logo" className="h-10 w-10" />
-      <span className="sr-only">Acme Inc</span>
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
@@ -61,7 +60,6 @@ const MobileNav = () => (
           className="flex items-center gap-2 text-lg font-semibold"
         >
           <img src={logo} alt="Invin Society Logo" className="h-10 w-10" />
-          <span className="sr-only">Acme Inc</span>
         </NavItem>
         {navItems.map((item) => (
           <NavItem key={item.to} to={item.to}>
