@@ -10,6 +10,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import logo from "@/public/images/logo.png";
+import logo from "@/public/images/logo.png";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
@@ -31,10 +32,7 @@ const Layout = () => {
 
 const DesktopNav = () => (
   <nav className="hidden md:flex md:items-center md:gap-5 lg:gap-6 text-lg font-medium md:text-sm">
-    <NavItem
-      to="/"
-      className="flex items-center gap-2 text-lg font-semibold md:text-base"
-    >
+    <NavItem to="/" className="flex items-center gap-2 text-lg font-semibold md:text-base">
       <img src={logo} alt="Invin Society Logo" className="h-8 w-8" />
       <span className="sr-only">Invin Society</span>
     </NavItem>
@@ -56,10 +54,7 @@ const MobileNav = () => (
     </SheetTrigger>
     <SheetContent side="left">
       <nav className="grid gap-6 text-lg font-medium">
-        <NavItem
-          to="/"
-          className="flex items-center gap-2 text-lg font-semibold"
-        >
+        <NavItem to="/" className="flex items-center gap-2 text-lg font-semibold">
           <img src={logo} alt="Invin Society Logo" className="h-8 w-8" />
           <span className="sr-only">Invin Society</span>
         </NavItem>
