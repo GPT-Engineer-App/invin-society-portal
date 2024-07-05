@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "../../public/logo.png";
 import { Carousel } from "@/components/ui/carousel";
 
 const Index = () => {
@@ -21,7 +22,10 @@ const Index = () => {
   }, []);
   return (
     <div className="container mx-auto p-4 text-center">
-      <h1 className="text-4xl font-bold mb-4">Willkommen bei Invin Society - Ihre Experten für Finanzanalyse und Investitionsberatung</h1>
+      <div className="flex flex-col items-center mb-4">
+        <img src={logo} alt="Invin Society Logo" className="h-16 w-auto mb-2" />
+        <h1 className="text-4xl font-bold">Willkommen bei Invin Society - Ihre Experten für Finanzanalyse und Investitionsberatung</h1>
+      </div>
       <p className="mb-4">Be Invincible with Invin</p>
       <div className="hero-banner mb-4">
         <img src="/hero-banner.jpg" alt="Hero Banner - Invin Society" className="mx-auto object-cover w-full h-[400px]" />
